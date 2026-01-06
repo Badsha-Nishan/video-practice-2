@@ -111,3 +111,50 @@ header {
   align-items: center;
   gap: 50px;
 }
+.skills {
+  text-align: center;
+  width: 71%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.head {
+  padding: 0 100px;
+}
+.skills .head h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 30px;
+}
+.skills .head p {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+.cards .card-info img {
+  margin-bottom: 30px;
+}
+.cards .card-info h2 {
+  font-weight: bold;
+  color: #181818;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.cards .card-info p {
+  line-height: 28px;
+  color: #757575;
+  font-size: 16px;
+}
+.card-info {
+  max-width: 267px;
+  text-align: left;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.247);
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+}
